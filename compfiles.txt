@@ -1,5 +1,14 @@
 ./hashtable/Ciudad.java
 ./hashtable/Persona.java
 ./miPrincipal/PruebaTablaDispersionCiudad.java
+./miPrincipal/ClienteMainPila.java
 ./miPrincipal/Principal.java
+./miPrincipal/ClienteMainCola.java
+./miPrincipal/ClienteMainStack.java
+./pila/Pila.java
+./pila/Nodo.java
+./delimitadores/AppDelimitadores.java
+./delimitadores/Delimitadores.java
+./cola/Nodo.java
+./cola/Cola.java
 ./miTest/AppTest.java
