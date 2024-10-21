@@ -1,6 +1,7 @@
 ./hashtable/Ciudad.java
 ./hashtable/Persona.java
 ./miPrincipal/PruebaTablaDispersionCiudad.java
+./miPrincipal/ClienteMainQueue.java
 ./miPrincipal/ClienteMainPila.java
 ./miPrincipal/Principal.java
 ./miPrincipal/ClienteMainCola.java
@@ -10,5 +11,6 @@
 ./delimitadores/AppDelimitadores.java
 ./delimitadores/Delimitadores.java
 ./cola/Nodo.java
+./cola/Cajero.java
 ./cola/Cola.java
 ./miTest/AppTest.java
