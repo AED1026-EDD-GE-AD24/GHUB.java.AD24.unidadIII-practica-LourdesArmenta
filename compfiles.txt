@@ -1,5 +1,7 @@
 ./hashtable/Ciudad.java
 ./hashtable/Persona.java
+./miPrincipal/ClienteMainHashMap.java
+./miPrincipal/ClienteMainPriorityQueue.java
 ./miPrincipal/PruebaTablaDispersionCiudad.java
 ./miPrincipal/ClienteMainQueue.java
 ./miPrincipal/ClienteMainPila.java
