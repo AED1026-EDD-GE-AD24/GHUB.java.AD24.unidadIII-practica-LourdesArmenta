@@ -12,6 +12,9 @@
 ./pila/Nodo.java
 ./delimitadores/AppDelimitadores.java
 ./delimitadores/Delimitadores.java
+./lista/Nodo.java
+./lista/PosicionIlegalException.java
+./lista/Lista.java
 ./cola/Nodo.java
 ./cola/Cajero.java
 ./cola/Cola.java
