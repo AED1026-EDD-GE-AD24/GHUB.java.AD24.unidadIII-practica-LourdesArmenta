@@ -80,8 +80,19 @@ public class Lista<T> {
 
                 }else{
                     //inserta en medio
+                    Nodo<T> aux = cabeza;
+                    for(int i=0;i<=pos-2;i++){
+                        aux = aux.getSiguiente();
+                    }
+                    Nodo<T> siguiente = aux.getSiguiente();
+                    aux.setSiguiente(nuevo);
+                    nuevo.setSiguiente(siguiente); 
+                    
+
+
                 }
             }
+            tamanio++;
 
 
         }else{
@@ -89,10 +100,42 @@ public class Lista<T> {
         }
     }
 
+    public void remover(int pos) throws PosicionIlegalException{
+        if(pos>=0 && pos<tamanio){
+            if(pos == 0){
+                //el nodo a elimimar esta en la primera posicion
+                cabeza = cabeza.getSiguiente();
+                tamanio--;
+            }else{
+                Nodo<T> aux = cabeza;
+                for(int i=0;i<=pos-2;i++){
+                    aux = aux.getSiguiente();
+                } 
+                Nodo<T> prox = aux.getSiguiente();
+                aux.setSiguiente(prox.getSiguiente());
+                tamanio--;
+
+
+            }
+        }else{
+            throw new PosicionIlegalException();
+        }
+
+      
+        
+    }
+    public void limpiar(){
+        cabeza=null;
+        tamanio=0;
+    }
+    
+
     //regresa el tamaño de la lista
     public int getTamanio() {
         return tamanio;
     }
+
+
     
     
 
