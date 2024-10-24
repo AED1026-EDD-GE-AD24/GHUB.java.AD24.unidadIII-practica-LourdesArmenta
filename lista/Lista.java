@@ -36,7 +36,7 @@ public class Lista<T> {
     }
 
     public T getValor(int pos) throws PosicionIlegalException{
-        if(pos>0 &&pos<tamanio){
+        if(pos>=0 && pos<tamanio){
             T valor;
             if(pos==0){
                 valor = cabeza.getValor();
@@ -128,7 +128,7 @@ public class Lista<T> {
         cabeza=null;
         tamanio=0;
     }
-    
+
 
     //regresa el tamaño de la lista
     public int getTamanio() {
