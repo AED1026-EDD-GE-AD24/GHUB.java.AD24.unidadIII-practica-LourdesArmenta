@@ -36,7 +36,7 @@ public class Lista<T> {
     }
 
     public T getValor(int pos) throws PosicionIlegalException{
-        if(pos>=0 && pos<tamanio){
+        if(pos >= 0 && pos<tamanio){
             T valor;
             if(pos==0){
                 valor = cabeza.getValor();
@@ -101,7 +101,7 @@ public class Lista<T> {
     }
 
     public void remover(int pos) throws PosicionIlegalException{
-        if(pos>=0 && pos<tamanio){
+        if(pos >= 0 && pos<tamanio){
             if(pos == 0){
                 //el nodo a elimimar esta en la primera posicion
                 cabeza = cabeza.getSiguiente();
